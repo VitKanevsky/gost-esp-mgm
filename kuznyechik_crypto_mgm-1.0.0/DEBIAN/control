@@ -1,0 +1,13 @@
+Source: gost-esp-mgm
+Section: net
+Priority: standard
+Maintainer: Vit Kanevsky <cryptiaproject@gmail.com>
+Build-Depends: debhelper (>= 7.0.0)
+Version: 1.0.0
+Package: gost-esp-mgm
+Architecture: all
+Depends: dkms
+Description: Kernel modules with russian GOST crypto algirithms.
+ kuznyechik_mgm_esp.ko as RFC 9227
+ plus kernel ipsec support of russian crypto algorithms.
+

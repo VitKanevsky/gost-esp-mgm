@@ -1,0 +1,10 @@
+#! /bin/sh 
+
+dkms add -m kuznyechik_crypto_mgm/1.0.0
+dkms build -m kuznyechik_crypto_mgm/1.0.0
+dkms install -m kuznyechik_crypto_mgm/1.0.0
+
+if ! grep -q kuznyechik_mgm_esp /etc/modules; then
+  echo "kuznyechik_mgm_esp" >> /etc/modules
+fi
+

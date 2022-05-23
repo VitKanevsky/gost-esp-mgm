@@ -1,0 +1,6 @@
+#! /bin/bash
+
+#remove from modules
+grep -v "kuznyechik_mgm_esp" /etc/modules > temp && mv temp /etc/modules
+
+dkms remove kuznyechik_crypto_mgm/1.0.0 --all
