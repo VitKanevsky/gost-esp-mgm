@@ -1,0 +1,9 @@
+README.md
+kuznyechik_crypto_mgm-1.0.0/DEBIAN/control
+kuznyechik_crypto_mgm-1.0.0/DEBIAN/postinst
+kuznyechik_crypto_mgm-1.0.0/DEBIAN/prerm
+kuznyechik_crypto_mgm-1.0.0/usr/src/kuznyechik_crypto_mgm-1.0.0/Makefile
+kuznyechik_crypto_mgm-1.0.0/usr/src/kuznyechik_crypto_mgm-1.0.0/dkms.conf
+kuznyechik_crypto_mgm-1.0.0/usr/src/kuznyechik_crypto_mgm-1.0.0/kuznyechik_mgm_esp.c
+kuznyechik_crypto_mgm-1.0.0/usr/src/kuznyechik_crypto_mgm-1.0.0/kuztable.h
+kuznyechik_crypto_mgm-1.0.0/usr/src/kuznyechik_crypto_mgm-1.0.0/xfrm_algo.c
