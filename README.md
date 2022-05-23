@@ -40,3 +40,17 @@ cd test_kuznyechik_mgm
 make 
 sudo insmod ./test_kuznyechik_mgm.ko
 sudo rmmod test_kuznyechik_mgm
+
+### Manual Setup ipsec (esp) tunnel
+![Net-Net-1](https://user-images.githubusercontent.com/105916673/169873561-da165f93-ed71-467a-a217-89b0f819a90a.svg)
+
+
+spi1=$(xxd -p -l 4 /dev/random)
+spi2=$(xxd -p -l 4 /dev/random)
+reqid1=$(xxd -p -l 4 /dev/random)
+reqid2=$(xxd -p -l 4 /dev/random)
+keys1aead=$(xxd -p -l 36 -c 44 /dev/random)
+keys2aead=$(xxd -p -l 36 -c 44 /dev/random)
+
+// TODO:
+
