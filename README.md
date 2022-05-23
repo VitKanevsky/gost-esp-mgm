@@ -46,10 +46,15 @@ sudo rmmod test_kuznyechik_mgm
 
 
 spi1=$(xxd -p -l 4 /dev/random)
+
 spi2=$(xxd -p -l 4 /dev/random)
+
 reqid1=$(xxd -p -l 4 /dev/random)
+
 reqid2=$(xxd -p -l 4 /dev/random)
+
 keys1aead=$(xxd -p -l 36 -c 44 /dev/random)
+
 keys2aead=$(xxd -p -l 36 -c 44 /dev/random)
 
 // TODO:
