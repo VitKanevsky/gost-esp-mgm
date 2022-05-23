@@ -7,3 +7,5 @@ kuznyechik_crypto_mgm-1.0.0/usr/src/kuznyechik_crypto_mgm-1.0.0/dkms.conf
 kuznyechik_crypto_mgm-1.0.0/usr/src/kuznyechik_crypto_mgm-1.0.0/kuznyechik_mgm_esp.c
 kuznyechik_crypto_mgm-1.0.0/usr/src/kuznyechik_crypto_mgm-1.0.0/kuztable.h
 kuznyechik_crypto_mgm-1.0.0/usr/src/kuznyechik_crypto_mgm-1.0.0/xfrm_algo.c
+test_kuznyechik_mgm/Makefile
+test_kuznyechik_mgm/test_kuznyechik_mgm.c
