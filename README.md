@@ -31,8 +31,12 @@ dkms will be configured for rebuild these modules at upgrade linux kernel.
 
 ### Check 
 
-lsmod 
+lsmod | grep kuznyechik
 
 cat /proc/crypto | grep kuznyechik
 
-
+### testing module
+cd test_kuznyechik_mgm
+make 
+sudo insmod ./test_kuznyechik_mgm.ko
+sudo rmmod test_kuznyechik_mgm
